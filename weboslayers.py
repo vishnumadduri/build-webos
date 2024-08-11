@@ -53,7 +53,7 @@
 Distribution = "webos"
 
 # Supported MACHINE-s
-Machines = ['qemux86', 'qemux86-64', 'qemuarm', 'raspberrypi3', 'raspberrypi3-64', 'raspberrypi4', 'raspberrypi4-64']
+Machines = ['qemux86', 'qemux86-64', 'qemuarm', 'raspberrypi3', 'raspberrypi3-64', 'raspberrypi4', 'raspberrypi4-64','intel-corei7-64']
 
 # github.com/openembedded repositories are read-only mirrors of the authoritative
 # repositories on git.openembedded.org
@@ -84,6 +84,9 @@ webos_layers = [
 ('meta-raspberrypi',          50, 'https://github.com/agherzan/meta-raspberrypi.git',       'branch=kirkstone,commit=9dc6673', ''),
 ('meta-webos-raspberrypi',    51, 'https://github.com/webosose/meta-webosose.git',          '', ''),
 ('meta-webos-virtualization', 53, 'https://github.com/webosose/meta-webosose.git',          '', ''),
+('meta-intel',          54, 'git://git.yoctoproject.org/meta-intel.git',       'branch=kirkstone,commit=bb7c7b0', ''),
+('meta-acrn',          55, 'https://github.com/intel/meta-acrn.git',       'branch=kirkstone,commit=5021d03', ''),
+('meta-webos-intel',          56, 'https://github.com/vishnumadduri/meta-webos-intel.git',       'branch=kirkstone,commit=833c2f4', 'meta-webosose/meta-webos-intel'),
 
 ('meta-security',             76, 'https://git.yoctoproject.org/git/meta-security',         'branch=kirkstone,commit=353078b', ''),
 ]
