@@ -79,14 +79,14 @@ webos_layers = [
 ('meta-webos-backports-5.0',  33, 'https://github.com/webosose/meta-webosose.git',          '', ''),
 ('meta-webos-backports-5.1',  34, 'https://github.com/webosose/meta-webosose.git',          '', ''),
 
-('meta-webos',                40, 'https://github.com/webosose/meta-webosose.git',          'branch=master,commit=d5b8fe28', ''),
+('meta-webos',                40, 'https://github.com/vishnumadduri/meta-webosose.git',          'branch=master,commit=f414822', ''),
 
 ('meta-raspberrypi',          50, 'https://github.com/agherzan/meta-raspberrypi.git',       'branch=kirkstone,commit=9dc6673', ''),
 ('meta-webos-raspberrypi',    51, 'https://github.com/webosose/meta-webosose.git',          '', ''),
 ('meta-webos-virtualization', 53, 'https://github.com/webosose/meta-webosose.git',          '', ''),
 ('meta-intel',          54, 'git://git.yoctoproject.org/meta-intel.git',       'branch=kirkstone,commit=bb7c7b0', ''),
 ('meta-acrn',          55, 'https://github.com/intel/meta-acrn.git',       'branch=kirkstone,commit=5021d03', ''),
-('meta-webos-intel',          56, 'https://github.com/vishnumadduri/meta-webos-intel.git',       'branch=kirkstone,commit=833c2f4', 'meta-webosose/meta-webos-intel'),
+('meta-webos-intel',          56, 'https://github.com/vishnumadduri/meta-webosose.git',       '', ''),
 
 ('meta-security',             76, 'https://git.yoctoproject.org/git/meta-security',         'branch=kirkstone,commit=353078b', ''),
 ]
