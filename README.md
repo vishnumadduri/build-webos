@@ -20,7 +20,7 @@ $ git checkout -t origin/<branch of the latest webOS OSE version>
 
 # Install and configure the build
 $ sudo scripts/prerequisites.sh
-$ ./mcf -p 0 -b 0 raspberrypi4-64
+$ ./mcf -p 0 -b 0 intel-corei7-64
 
 # Start to build
 $ source oe-init-build-env
@@ -55,7 +55,7 @@ $ git checkout -t origin/<branch of the latest webOS OSE version>
 
 # Install and configure the build
 $ sudo scripts/prerequisites.sh
-$ ./mcf -p 0 -b 0 raspberrypi4-64
+$ ./mcf -p 0 -b 0 intel-corei7-64
 
 # Download source codes and licenses
 $ source oe-init-build-env
