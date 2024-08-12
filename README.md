@@ -14,7 +14,7 @@ If you are already familiar with building webOS OSE, check the following quick s
 
 ``` bash
 # Download this repository
-$ git clone https://github.com/webosose/build-webos.git
+$ git clone https://github.com/vishnumadduri/build-webos.git
 $ cd build-webos
 $ git checkout -t origin/<branch of the latest webOS OSE version>
 
@@ -49,7 +49,7 @@ If you *ONLY* want to check the source codes and those license information, ente
 
 ``` bash
 # Download this repository
-$ git clone https://github.com/webosose/build-webos.git
+$ git clone https://github.com/vishnumadduri/build-webos.git
 $ cd build-webos
 $ git checkout -t origin/<branch of the latest webOS OSE version>
 
